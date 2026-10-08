@@ -1,1 +1,0 @@
-import{j as t,r as o}from"./index-BVT_kee2.js";function i({text:n,className:r=""}){const a=n.split(/(\[\[[^\]]+\]\])/g);return t.jsx("span",{className:r,children:a.map((s,e)=>s.startsWith("[[")?t.jsx("span",{className:"num font-bold whitespace-nowrap text-[#e879f9]",children:s.slice(2,-2)},e):t.jsx(o.Fragment,{children:s},e))})}export{i as M};
