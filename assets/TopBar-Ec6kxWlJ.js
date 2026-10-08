@@ -1,0 +1,6 @@
+import{g as o,j as e}from"./index-RuNb00TO.js";import{c}from"./AppShell-DAIQBkyK.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const l=c("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);function m({title:s,backTo:t,right:n,below:a}){const r=o(),i=()=>t?r(t):window.history.length>1?r(-1):r("/");return e.jsxs("header",{className:"no-print sticky top-0 z-20 -mx-4 bg-[#1d0d33]/80 px-4 pt-[env(safe-area-inset-top)] backdrop-blur-xl sm:-mx-6 sm:px-6",children:[e.jsxs("div",{className:"grid min-h-16 grid-cols-[48px_1fr_auto] items-center gap-2",children:[e.jsx("button",{type:"button",onClick:i,"aria-label":"Назад",className:"grid size-11 place-items-center rounded-full text-ink hover:bg-white/8",children:e.jsx(l,{size:22,"aria-hidden":"true"})}),e.jsx("h1",{className:"truncate text-center font-display text-[17px] font-semibold",children:s}),e.jsx("div",{className:"flex min-w-12 justify-end",children:n})]}),a]})}function p({label:s,onClick:t,children:n}){return e.jsx("button",{type:"button",onClick:t,"aria-label":s,className:"grid size-11 place-items-center rounded-full text-muted hover:bg-white/8 hover:text-ink",children:n})}export{p as I,m as T};
